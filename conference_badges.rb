@@ -21,14 +21,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts "Hello, my name is Edsger."
-  puts "Hello, my name is Ada."
-  puts "Hello, my name is Charles."
-  puts "Hello, my name is Alan."
-  puts "Hello, my name is Grace."
-  puts "Hello, my name is Linus."
-  puts "Hello, my name is Matz."
-
   batch_badge_creator(attendees).each do |badge|
     puts "#{badge}"
   end
