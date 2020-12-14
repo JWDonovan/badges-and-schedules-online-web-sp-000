@@ -27,4 +27,5 @@ def printer(attendees)
   puts "Hello, my name is Alan."
   puts "Hello, my name is Grace."
   puts "Hello, my name is Linus."
+  puts "Hello, my name is Matz."
 end
