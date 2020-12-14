@@ -16,4 +16,6 @@ def assign_rooms(attendees)
     arr << val
     val
   end
+
+  arr
 end
