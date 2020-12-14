@@ -8,3 +8,9 @@ def batch_badge_creator(name_list)
     "Hello, my name is #{name}."
   end
 end
+
+def assign_rooms(attendees)
+  attendees.collect do |attendee|
+    "#{attendee}"
+  end
+end
